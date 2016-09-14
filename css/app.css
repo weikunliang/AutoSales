@@ -1,0 +1,26 @@
+.cover {
+  background: url("img/cover.png") no-repeat center center;
+  background-size: cover;
+  height: 50vh;
+  overflow: hidden; 
+}
+.cover h1 {
+  color: #000000;
+  text-align: left;
+  position: relative;
+}
+
+button {
+  width: 100%;
+}
+
+.grey-band {
+  background-color: #F1F2F4;
+  background-size: cover;
+  height: 50vh;
+  overflow: hidden; 
+}
+
+.white-band {
+  
+}
