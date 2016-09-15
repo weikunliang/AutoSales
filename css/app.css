@@ -30,9 +30,18 @@ h2 {
   margin-bottom: 3rem;
 }
 
-.dropdown.button:before{
-  width: 10px;
-  height: 10px; 
-  border: none;
-  background: url("img/cover.png") no-repeat;
+.icon-search {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.icon-car {
+  width: 3rem;
+  height: auto;
+  margin-left: 4rem;
+}
+
+.row.full-width {
+  width: 100%;
+  max-width: 100%; 
 }

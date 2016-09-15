@@ -557,7 +557,8 @@ dl {
   list-style-position: outside; }
 
 li {
-  font-size: inherit; }
+  font-size: 1.4rem;
+  font-weight: bold; }
 
 ul {
   list-style-type: disc;
@@ -1164,7 +1165,7 @@ select {
       outline: 0; }
   .menu > li > a {
     display: block;
-    padding: 0.7rem 1rem;
+    padding: 1.9rem 4rem 1.8rem 0.5rem;
     line-height: 1; }
   .menu input,
   .menu a,
@@ -1288,11 +1289,12 @@ select {
 
 .menu-text {
   font-weight: bold;
-  color: inherit;
+  font-size: 2.4rem;
+  color: #ffffff;
   line-height: 1;
   padding-top: 0;
   padding-bottom: 0;
-  padding: 0.7rem 1rem; }
+  padding: 1rem 0.8rem; }
 
 .menu-centered {
   text-align: center; }
@@ -1685,7 +1687,7 @@ select {
   -webkit-flex-wrap: nowrap;
       -ms-flex-wrap: nowrap;
           flex-wrap: nowrap;
-  padding: 0.5rem;
+  padding: 0rem;
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap; }
