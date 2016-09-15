@@ -29,3 +29,10 @@
 h2 {
   margin-bottom: 3rem;
 }
+
+.dropdown.button:before{
+  width: 10px;
+  height: 10px; 
+  border: none;
+  background: url("img/cover.png") no-repeat;
+}

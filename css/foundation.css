@@ -530,12 +530,12 @@ h6 {
     font-size: 1rem; } }
 
 a {
-  color: #2ba6cb;
+  color: #ffffff;
   text-decoration: none;
   line-height: inherit;
   cursor: pointer; }
   a:hover, a:focus {
-    color: #258faf; }
+    color: #ffffff; }
   a img {
     border: 0; }
 
@@ -907,14 +907,15 @@ legend {
 
 select {
   height: 4.5rem;
-  padding: 0.5rem;
+  padding: 0 2.1rem;
   border: 1px solid #cacaca;
-  margin: 0 0 1rem;
-  font-size: 1rem;
+  margin: 2.8rem 0 2.8rem 0;
+  font-size: 1.6rem;
+  font-weight: bold;
   font-family: inherit;
   line-height: normal;
-  color: #0a0a0a;
-  background-color: #fefefe;
+  color: #9aa0a5;
+  background-color: #ffffff;
   border-radius: 0px;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -1065,6 +1066,7 @@ select {
 .button {
   display: inline-block;
   text-align: center;
+  font-weight: bold;
   line-height: 1;
   cursor: pointer;
   -webkit-appearance: none;
@@ -1073,7 +1075,7 @@ select {
   border: 1px solid transparent;
   border-radius: 0;
   padding: 1.7rem 3rem;
-  margin: 0 0 2rem 0;
+  margin: 0 0 2.8rem 0;
   font-size: 1.6rem;
   background-color: #29C278;
   color: #ffffff; }
@@ -1102,12 +1104,13 @@ select {
     .button.primary:hover, .button.primary:focus {
       background-color: #1AD076; }
   .button.secondary {
-    background-color: #50C4E7; }
+    background-color: #50C4E7;}
     .button.secondary:hover, .button.secondary:focus {
       background-color: #4CCDF7; }
   .button.search {
-    padding-top: 1.6rem;
+    padding-top: 1.5rem;
     padding-bottom: 1.4rem;
+    margin-top: 2.8rem;
     width: 100%; 
     background-color: #f07e5e; }
     .button.search:hover, .button.alert:focus {
