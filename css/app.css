@@ -1,26 +1,31 @@
-.cover {
+.hero {
   background: url("img/cover.png") no-repeat center center;
   background-size: cover;
-  height: 50vh;
-  overflow: hidden; 
-}
-.cover h1 {
-  color: #000000;
-  text-align: left;
-  position: relative;
-}
+  height: 75vh;
+  overflow: hidden; }
 
-button {
-  width: 100%;
+
+.message {
+  margin-bottom: 4.3rem;
 }
 
 .grey-band {
   background-color: #F1F2F4;
   background-size: cover;
-  height: 50vh;
   overflow: hidden; 
 }
 
 .white-band {
-  
+  background-color: #ffffff;
+  background-size: cover;
+  overflow: hidden; 
+}
+
+.banner{
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+h2 {
+  margin-bottom: 3rem;
 }
