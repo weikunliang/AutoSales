@@ -1306,6 +1306,7 @@ select {
   display: none; }
 
 .is-drilldown {
+  width: auto !important;
   position: relative;
   overflow: hidden; }
   .is-drilldown li {
@@ -1650,6 +1651,7 @@ select {
   text-align: right; }
 
 .title-bar-title {
+  font-size: 2rem;
   font-weight: bold;
   vertical-align: middle;
   display: inline-block; }

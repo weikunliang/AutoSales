@@ -9,20 +9,20 @@
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
-    <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
+
+    <div class="title-bar" data-responsive-toggle="top-menu">
       <button class="menu-icon" type="button" data-toggle></button>
       <div class="title-bar-title">Menu</div>
     </div>
-
-    <div class="top-bar row full-width">
-      <div class="top-bar-left" data-dropdown-menu>
-        <ul class="menu">
+    <div class="top-bar row full-width" id="top-menu">
+      <div class="top-bar-left">
+        <ul class="dropdown vertical medium-horizontal menu" data-dropdown-menu>
           <img class="icon-car" src="css/img/logo-autosales.png">
           <li class="menu-text">AutoSales.com</li>
         </ul>
       </div>
       <div class="top-bar-right">
-        <ul class="menu align-right" data-responsive-menu="drilldown medium-dropdown">
+        <ul class="dropdown vertical medium-horizontal menu align-right">
           <li><a href="#">Cars for Sale</a></li>
           <li><a href="#">Sell My Car</a></li>
           <li><a href="#">Find a Dealer</a></li>
@@ -34,7 +34,7 @@
 
     <section class="hero">
       <div class="row align-middle">
-        <div class="large-9 columns message">
+        <div class="small-16 medium-16 large-9 columns message">
           <h1>The Car of Your Dreams is Only a Click Away!</h1>
         </div>
       </div>

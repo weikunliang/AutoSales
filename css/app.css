@@ -59,3 +59,43 @@ footer {
   color: #6d7780;
   font-size: 1.4rem;
 }
+
+.title-bar {
+  background: #3d4852;
+  padding: 0.9rem; }
+
+@media only screen and (max-width: 40em) {
+  h1 {
+    font-size: 3.6rem;
+    line-height: 4rem;
+    margin-top: 8rem;
+  }
+  .menu > li > a {
+    padding: 2rem 1rem;
+  }
+}
+
+@media only screen and (max-width: 54em) {
+    .menu-text, .icon-car {
+      display: none !important; } }
+
+@media only screen and (min-width: 64em) {
+  .menu:last-child {
+    border-left: 1px solid #4e4e4e; }
+
+  .menu:first-child {
+    border-left: none; }
+
+  .menu li:not(:last-child) {
+    border-right: 1px solid #4e4e4e; } }
+.dropdown.menu .submenu {
+  border: none; }
+
+.dropdown.menu .is-dropdown-submenu-parent.is-right-arrow > a::after {
+  border-color: #fff transparent transparent; }
+
+.is-drilldown-submenu-parent > a::after {
+  border-color: transparent transparent transparent #fff; }
+
+.js-drilldown-back::before {
+  border-color: transparent #fff transparent transparent; }
